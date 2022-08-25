@@ -18,6 +18,12 @@ theme = "cactus"
 
     [params.comments]
       enabled = true
+      engine = "utterances" # only disqus, utterances, and cactus_comments is supported
+      [params.comments.utterances]
+        repo = "mutoulbj/blog-yonghan"
+        label = "blog-yonghan-comment" # you can use however you want to label your name in your repo's issues
+        theme = "preferred-color-scheme"
+        issueTerm = "pathname"
 
     [[params.social]]
       name = "twitter"
