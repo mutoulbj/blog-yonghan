@@ -4,7 +4,7 @@ date: "2017-06-15"
 draft: false
 tags: ["database"]
 keywords: ["postgresql", "安装"]
-category: "技术"
+categories: ["技术"]
 ---
 
 操作系统：`Ubuntu 16.04`

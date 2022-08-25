@@ -4,7 +4,7 @@ date: "2017-09-25"
 draft: false
 tags: ["code"]
 keywords: ["编程", "Basic Auth"]
-category: "技术"
+categories: ["技术"]
 ---
 
 **原文:**[Why I Love Basic Auth](http://www.rdegges.com/why-i-love-basic-auth/)

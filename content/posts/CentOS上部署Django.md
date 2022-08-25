@@ -4,10 +4,8 @@ date: "2017-07-10"
 draft: false
 tags: ["program"]
 keywords: ["centos", "python", "django", "部署"]
-category: "技术"
+categories: ["技术"]
 ---
-
-
 
 ### 搭建Python环境
 

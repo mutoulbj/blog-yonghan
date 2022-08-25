@@ -4,7 +4,7 @@ date: "2017-09-27"
 draft: false
 tags: ["python"]
 keywords: ["编程", "python", "竞态条件"]
-category: "技术"
+categories: ["技术"]
 ---
 
 

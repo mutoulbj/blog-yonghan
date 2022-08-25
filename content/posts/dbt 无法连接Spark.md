@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["bigdata"]
 keywords: ["dbt", "Spark"]
-category: "技术"
+categories: ["技术"]
 ---
 
 ## dbt 简介

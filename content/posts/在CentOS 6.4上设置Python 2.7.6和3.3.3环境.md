@@ -4,7 +4,7 @@ date: "2017-08-26"
 draft: false
 tags: ["program"]
 keywords: ["centos", "python", "安装"]
-category: "技术"
+categories: ["技术"]
 ---
 
 `写在前面`: 虽然我也认为目前使用Ubuntu用作服务器系统不存在任何问题,但是很多时候基于安全性与稳定性考虑还是难免会选择红帽系列。更多时候作为小码农也没有权力做技术决策吧[无奈状]。话说回来,感觉难受只是因为不熟悉,熟悉也就好了。作为Ubuntu党,这些天一直在与CentOS打交道,一通折腾下来,畅快很多。于是想写篇博客记录,却发现Digital Ocean上的一篇博文写的不能再好了(Digital Ocean上的文章都是精品)。所以,还是直接翻译吧。[原文链接](https://www.digitalocean.com/community/tutorials/how-to-set-up-python-2-7-6-and-3-3-3-on-centos-6-4)。

@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["科学上网"]
 keywords: ["gost", "科学上网"]
-category: "技术"
+categories: ["技术"]
 ---
 
 ## 准备

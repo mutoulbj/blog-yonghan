@@ -4,7 +4,7 @@ date: "2017-06-11"
 draft: false
 tags: ["program"]
 keywords: ["ubuntu", "python3.6", "安装"]
-category: "技术"
+categories: ["技术"]
 ---
 
 ## Ubuntu 16.04 安装 Python3.6

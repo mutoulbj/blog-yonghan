@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["bigdata"]
 keywords: ["greenplum", "集群", "安装"]
-category: "技术"
+categories: ["技术"]
 ---
 
 ## 硬件及配置

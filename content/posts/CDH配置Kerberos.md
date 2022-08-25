@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["bigdata"]
 keywords: ["CDH", "Kerberos"]
-category: "技术"
+categories: ["技术"]
 ---
 
 ## 安装KDC
