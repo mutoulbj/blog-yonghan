@@ -2,61 +2,62 @@ baseURL = "https://blog.mutoulbj.com"
 languageCode = "zh-cn"
 title = "咏函"
 theme = "cactus"
+copyright = "木头lbj"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 3
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 4
 
 [params]
-    description = "二流程序员，目前写代码为生。全栈工程师（啥都不精），近几年从事大数据相关工作。社恐，这儿是我表达自我的地方，若有缘到此，还能给各位带来些许收获，就有幸之至了。"
-    mainSection = "posts"
-    mainSectionTitle = "Blog"
+  rss = true
+  showAllPostsArchive = true
 
-    showAllPostsOnHomePage = false
-    postsOnHomePage = 20
+  # Home page settings
+  description = "二流程序员，目前写代码为生。全栈工程师（啥都不精），近几年从事大数据相关工作。社恐，这儿是我表达自我的地方，若有缘到此，还能给各位带来些许收获，就有幸之至了。"
+  mainSection = "posts"
+  mainSectionTitle = "Blog"
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 10
+  tagsOverview = true
 
-    DateFormat = "2006-01-02"
-    rss = true
-    showAllPostsArchive = true
-    css = ["css/custom.css"]
+  DateFormat = "2006-01-02"
+  # css = ["css/custom.css"]
 
-    [params.comments]
-      enabled = true
-      engine = "utterances" # only disqus, utterances, and cactus_comments is supported
-      [params.comments.utterances]
-        repo = "mutoulbj/blog-yonghan"
-        label = "blog-yonghan-comment" # you can use however you want to label your name in your repo's issues
-        theme = "preferred-color-scheme"
-        issueTerm = "pathname"
+  show_updated = true
+  showReadTime = true
 
-    [[params.social]]
-      name = "twitter"
-      link = "https://twitter.com/mutoulbj"
+  [params.comments]
+    enabled = true
+    engine = "utterances" # only disqus, utterances, and cactus_comments is supported
+    [params.comments.utterances]
+      repo = "mutoulbj/blog-yonghan"
+      label = "blog-yonghan-comment" # you can use however you want to label your name in your repo's issues
+      theme = "preferred-color-scheme"
+      issueTerm = "pathname"
 
-    [[params.social]]
-      name = "github"
-      link = "https://github.com/mutoulbj"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/mutoulbj"
 
-    [[menu.main]]
-      name = "Home"
-      url = "/"
-      weight = 1
-
-    [[menu.main]]
-      name = "Develop"
-      url = "/dev"
-      weight = 2
-
-    [[menu.main]]
-      name = "Life"
-      url = "/life"
-      weight = 3
-
-    [[menu.main]]
-      name = "Tags"
-      url = "/tags"
-      weight = 4
-
-    [[menu.main]]
-      name = "About"
-      url = "/about"
-      weight = 5
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/mutoulbj"
 
 [markup]
   [markup.highlight]
