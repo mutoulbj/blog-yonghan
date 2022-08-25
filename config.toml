@@ -1,4 +1,4 @@
-baseURL = "https://blog.mutoulbj.com"
+baseURL = "https://blog-yonghan.netlify.app"
 languageCode = "zh-cn"
 title = "咏函"
 theme = "cactus"
