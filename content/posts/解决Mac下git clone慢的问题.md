@@ -4,7 +4,7 @@ date: "2021-12-16"
 draft: false
 tags: ["科学上网"]
 keywords: ["git", "mac", "科学上网"]
-categories: "技术"
+category: "技术"
 ---
 
 

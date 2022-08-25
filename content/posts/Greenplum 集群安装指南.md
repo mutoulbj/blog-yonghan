@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["bigdata"]
 keywords: ["greenplum", "集群", "安装"]
-categories: "技术"
+category: "技术"
 ---
 
 ## 硬件及配置
@@ -409,11 +409,11 @@ MaxSessions 200
    ```bash
    $ source /usr/local/greenplum-db/greenplum_path.sh
    $ gpcheckperf -f hostfile_gpcheckperf -r ds -D -d /data/primary -d /data/mirror
-   
+
     ====================
     ==  RESULT 2020-10-22T19:22:52.563413
     ====================
-   
+
      disk write avg time (sec): 1048.61
      disk write tot bytes: 197952274432
      disk write tot bandwidth (MB/s): 180.03

@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["database"]
 keywords: ["postgresql", "迁移"]
-categories: "技术"
+category: "技术"
 ---
 
 一般做 PostgreSQL 数据库之间的迁移的做法为：

@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["科学上网"]
 keywords: ["gost", "科学上网"]
-categories: "技术"
+category: "技术"
 ---
 
 ## 准备
@@ -22,7 +22,7 @@ VPS一台，目前在用的有以下几个服务商。
 - [CentOS上Docker CE安装](https://docs.docker.com/install/linux/docker-ce/centos/)
 - [Ubuntu上Docker CE安装](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-非root用户使用Docker如果遇到错误: 
+非root用户使用Docker如果遇到错误:
 
 ```bash
 Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/containers/json: dial unix /var/run/docker.sock: connect: permission denied.

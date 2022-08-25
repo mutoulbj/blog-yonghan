@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["database"]
 keywords: ["离线安装", "MySQL"]
-categories: "技术"
+category: "技术"
 ---
 
 ## 准备

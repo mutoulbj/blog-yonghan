@@ -4,7 +4,7 @@ date: "2021-12-17"
 draft: false
 tags: ["bigdata"]
 keywords: ["centos", "CDH6"]
-categories: "技术"
+category: "技术"
 ---
 
 ## 准备工作
@@ -153,7 +153,7 @@ timedatectl set-timezone  Asia/Shanghai
 
   ```bash
   vi /etc/ntp.conf
-  
+
   server cdh5-m
   ```
 
