@@ -3,6 +3,7 @@ languageCode = "zh-cn"
 title = "咏函"
 theme = "cactus"
 copyright = "木头lbj"
+googleAnalytics = "G-24H11KY5VC"
 
 [[menu.main]]
   name = "Home"
