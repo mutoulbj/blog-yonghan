@@ -470,11 +470,11 @@ MaxSessions 200
    declare -a MIRROR_DATA_DIRECTORY=(/data/mirror /data/mirror /data/mirror)
    ```
 
-1. 执行命令进行初始化
+4. 执行命令进行初始化
 
-   ```bash
-   $ gpinitsystem -c gpinitsystem_config -h hostfile_gpinitsystem
-   ```
+```bash
+$ gpinitsystem -c gpinitsystem_config -h hostfile_gpinitsystem
+```
 
 初始化过程中会询问是否继续，输入 `y` 回车后继续。等待初始化结束看到如下日志信息表示安装成功。
 ```bash
@@ -506,7 +506,7 @@ MaxSessions 200
 
 ```bash
 gpconfig -s TimeZone  #  查看时区，若时区正确(为Asia/Shanghai)则不需要修改
-gpconfig -c TimeZone -v 'Asia/Shanghai'  # 将时区修改为上海时区
+gpconfig -c TimeZone -v 'Asia/Shanghai'  # 将时区修改为Asia/Shanghai
 ```
 
 ## 安装失败后重新安装
