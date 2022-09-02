@@ -308,7 +308,7 @@ MaxSessions 200
    ```
 
 ## Greenplum数据库软件安装
-1. 将 `gp-6.10.0-install-package.tar.gz` 压缩包上传到Master机器，并解压。
+1. 将 `gp-6.10.0-install-package.tar.gz` 压缩包上传到**所有**机器，并解压
 
    ```bash
    tar -xzvf gp-6.10.0-install-package.tar.gz
@@ -319,7 +319,7 @@ MaxSessions 200
    sudo yum install -y ./greenplum-db-6.10.0-2-rhel7-x86_64.rpm
    ```
 
-1. 修改软件文件所属用户和组为 `gpadmin`.
+1. 修改软件文件所属用户和组为 `gpadmin`
 
    ```bash
    $ sudo chown -R gpadmin:gpadmin /usr/local/greenplum*
@@ -409,11 +409,11 @@ MaxSessions 200
    ```bash
    $ source /usr/local/greenplum-db/greenplum_path.sh
    $ gpcheckperf -f hostfile_gpcheckperf -r ds -D -d /data/primary -d /data/mirror
-
+   
     ====================
     ==  RESULT 2020-10-22T19:22:52.563413
     ====================
-
+   
      disk write avg time (sec): 1048.61
      disk write tot bytes: 197952274432
      disk write tot bandwidth (MB/s): 180.03
