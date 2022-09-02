@@ -372,7 +372,7 @@ MaxSessions 200
  # mkdir -p /data/master
  # chown gpadmin:gpadmin /data/master
  # source /usr/local/greenplum-db/greenplum_path.sh
- # 一下两行命令如果没有Standby Master则不需要执行
+ # 以下两行命令如果没有Standby Master则不需要执行
  # gpssh -h smdw -e 'mkdir -p /data/master'
  # gpssh -h smdw -e 'chown gpadmin:gpadmin /data/master'
  ```
