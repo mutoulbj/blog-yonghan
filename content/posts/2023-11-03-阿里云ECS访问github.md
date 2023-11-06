@@ -18,7 +18,7 @@ categories: ["技术"]
 1. 访问 [ipaddress.com](https://www.ipaddress.com/),获取`github.com`的 IP 地址；
 2. 将记录添加进服务器`/etc/hosts`，如：`echo "140.82.112.4 github.com" >> /etc/hosts` 。
 
-![GitHub-Ipaddress](http://img.mutoulbj.com/github-ipaddress.png)
+![github-ipaddress](https://img.mutoulbj.com/blog/202311github-ipaddress.png)
 
 ## 使用 SSH 代理
 
