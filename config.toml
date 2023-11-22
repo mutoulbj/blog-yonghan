@@ -3,8 +3,6 @@ languageCode = "zh-cn"
 title = "咏函"
 theme = "cactus"
 copyright = "木头lbj"
-googleAnalytics = "G-24H11KY5VC"
-MicrosoftClarityCode = "jtrzett5ez"
 
 [[menu.main]]
   name = "Home"
@@ -43,6 +41,9 @@ MicrosoftClarityCode = "jtrzett5ez"
 
   show_updated = true
   showReadTime = true
+
+  MicrosoftClarity = true
+  MicrosoftClarityCode = "jtrzett5ez"
 
   [params.comments]
     enabled = true
