@@ -1,4 +1,4 @@
 [submodule "themes/cactus"]
 	path = themes/cactus
-	url = git@github.com:mutoulbj/hugo-theme-cactus.git
+	url = https://github.com/mutoulbj/hugo-theme-cactus.git
 	branch = main
