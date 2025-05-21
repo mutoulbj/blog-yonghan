@@ -29,7 +29,7 @@ copyright = "木头lbj"
   showAllPostsArchive = true
 
   # Home page settings
-  description = "程序员，目前写代码为生。全栈工程师（啥都不精），近几年从事大数据相关工作。社恐，这儿是我表达自我的地方，若有缘到此，还能给各位带来些许收获，就有幸之至了。"
+  description = "程序员，目前写码为生。全干工程师，关注AI、大数据、充电桩行业"
   mainSection = "posts"
   mainSectionTitle = "Blog"
   showAllPostsOnHomePage = false
