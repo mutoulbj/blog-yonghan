@@ -45,6 +45,9 @@ copyright = "木头lbj"
   MicrosoftClarity = true
   MicrosoftClarityCode = "jtrzett5ez"
 
+  MicrosoftWebmaster = true
+  MicrosoftWebmasterCode = "A280EB1107791FE3524B7875D547F0BC"
+
   [params.comments]
     enabled = true
     engine = "utterances" # only disqus, utterances, and cactus_comments is supported
