@@ -10,9 +10,6 @@
   <title>{{ if .IsPage }} {{ .Title }} | {{ end }}{{ .Site.Title }}</title>
   <link rel = 'canonical' href = '{{ .Permalink }}'>
   {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-  {{ if .Site.Params.MicrosoftWebmaster }}
-  <meta name="msvalidate.01" content="{{ .Site.Params.MicrosoftWebmasterCode }}" />
-  {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -61,4 +58,8 @@
   </script>
   {{end}}
   <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
+  <!-- Microsoft Webmaster tool verification -->
+  {{ if .Site.Params.MicrosoftWebmaster }}
+  <meta name="msvalidate.01" content="{{ .Site.Params.MicrosoftWebmasterCode }}" />
+  {{ end }}
 </head>
